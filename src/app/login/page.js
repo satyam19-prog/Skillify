@@ -1,6 +1,8 @@
-export default function Home() {
+import './LoginPage.css';
+
+export default function LoginPage() {
   return (
-    <div className="home-page">
+    <div className="login-page">
       <header className="header">
         <div className="logo"><a href="./.">SKILLIFY</a></div>
         <nav className="nav-links">
@@ -11,29 +13,34 @@ export default function Home() {
         </nav>
       </header>
 
-      <main className="main-content">
-        <section className="hero-section">
-          <h2 className="subheading">YOUR SKILLS. YOUR JOURNEY.</h2>
-          <h1 className="main-heading">SKILLIFY</h1>
-
-          <div className="services">
-            <a href="/language" className="service-button">LANGUAGE</a>
-            <a href="/cp" className="service-button">COMPETITIVE PROGRAMMING</a>
-            <a href="/maths" className="service-button">MATHS</a>
-            <a href="/trivia" className="service-button">TRIVIA</a>
+      <main className="login-main">
+        <h1 className="login-title">LOGIN TO YOUR ACCOUNT</h1>
+        <form className="login-form">
+          <input type="email" placeholder="EMAIL" required />
+          <input type="password" placeholder="PASSWORD" required />
+          <div className="login-options">
+            <label>
+              <input type="checkbox" />
+              <span>REMEMBER ME</span>
+            </label>
+            <a href="#">FORGET PASSWORD?</a>
           </div>
+          <button type="submit" className="login-btn">LOG IN</button>
+        </form>
 
-          <div className="auth-buttons">
-            <div className="auth-button-container">
-              <a href="/login" className="auth-button">LOG IN</a>
-              <p className="auth-subtext">ALREADY HAVE AN ACCOUNT?</p>
-            </div>
-            <div className="auth-button-container">
-              <a href="/signup" className="auth-button">SIGN UP</a>
-              <p className="auth-subtext">CREATE YOUR ACCOUNT NOW!</p>
-            </div>
-          </div>
-        </section>
+        <div className="login-divider">
+          <hr /><span>OR</span><hr />
+        </div>
+
+        <div className="google-login">
+          <a href="https://google.com/">
+            <img src="/google.webp" alt="Google"/>
+          </a>
+        </div>
+
+        <p className="login-note">
+          DON'T HAVE AN ACCOUNT? <a href="/signup">SIGN UP</a>
+        </p>
       </main>
 
       <footer className="footer">
