@@ -1,3 +1,5 @@
+'use client';
+
 import './LoginPage.css';
 
 export default function LoginPage() {
@@ -25,7 +27,16 @@ export default function LoginPage() {
             </label>
             <a href="#">FORGET PASSWORD?</a>
           </div>
-          <button type="submit" className="login-btn">LOG IN</button>
+          <button
+            type="submit"
+            className="login-btn"
+            onClick={() => {
+              localStorage.setItem('loggedIn', 'true');
+              window.location.href = '/';
+            }}
+          >
+            LOG IN
+          </button>
         </form>
 
         <div className="login-divider">

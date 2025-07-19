@@ -1,3 +1,5 @@
+"use client";
+
 import './SignUp.css';
 
 export default function SignUpPage() {
@@ -20,7 +22,16 @@ export default function SignUpPage() {
           <input type="email" placeholder="EMAIL" required />
           <input type="password" placeholder="PASSWORD" required />
           <input type="password" placeholder="CONFIRM PASSWORD" required />
-          <button type="submit" className="login-btn">SIGN UP</button>
+          <button
+            type="button"
+            className="login-btn"
+            onClick={() => {
+              window.location.href = '/';
+            }}
+          >
+            SIGN UP
+          </button>
+
         </form>
 
         <div className="login-divider">
