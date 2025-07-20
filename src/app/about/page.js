@@ -1,4 +1,5 @@
 import './AboutPage.css';
+import Image from 'next/image';
 
 export default function AboutPage() {
   return (
@@ -52,16 +53,16 @@ export default function AboutPage() {
       <footer className="footer">
         <div className="social-icons">
           <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
-            <img src="/x.jpg" alt="Twitter" className="social-icon" />
+            <Image src="/x.jpg" alt="Twitter" className="social-icon" />
           </a>
           <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-            <img src="/instagram.webp" alt="Instagram" className="social-icon" />
+            <Image src="/instagram.webp" alt="Instagram" className="social-icon" />
           </a>
           <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
-            <img src="/youtube.webp" alt="YouTube" className="social-icon" />
+            <Image src="/youtube.webp" alt="YouTube" className="social-icon" />
           </a>
           <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
-            <img src="/linkedin.webp" alt="LinkedIn" className="social-icon" />
+            <Image src="/linkedin.webp" alt="LinkedIn" className="social-icon" />
           </a>
         </div>
         <p className="footer-text">© 2025 SKILLIFY. ALL RIGHTS RESERVED.</p>

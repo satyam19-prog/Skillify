@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 
 import './LoginPage.css';
 
@@ -45,7 +46,7 @@ export default function LoginPage() {
 
         <div className="google-login">
           <a href="https://google.com/">
-            <img src="/google.webp" alt="Google"/>
+            <Image src="/google.webp" alt="Google"/>
           </a>
         </div>
 
@@ -57,16 +58,16 @@ export default function LoginPage() {
       <footer className="footer">
         <div className="social-icons">
           <a href="https://twitter.com/">
-            <img src="/x.jpg" alt="Instagram" className="social-icon" />
+            <Image src="/x.jpg" alt="Instagram" className="social-icon" />
           </a>
           <a href="https://www.instagram.com">
-            <img src="/instagram.webp" alt="Instagram" className="social-icon" />
+            <Image src="/instagram.webp" alt="Instagram" className="social-icon" />
           </a>
           <a href="https://www.youtube.com">
-            <img src="/youtube.webp" alt="YouTube" className="social-icon" />
+            <Image src="/youtube.webp" alt="YouTube" className="social-icon" />
           </a>
           <a href="https://www.linkedin.com">
-            <img src="/linkedin.webp" alt="LinkedIn" className="social-icon" />
+            <Image src="/linkedin.webp" alt="LinkedIn" className="social-icon" />
           </a>
         </div>
 
