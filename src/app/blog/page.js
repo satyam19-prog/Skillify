@@ -21,25 +21,25 @@ export default function BlogPage() {
           <div className="blog-card">
             <h2>Mastering Greedy Algorithms</h2>
             <p>Explore how greedy techniques can simplify complex problems and when it's the best choice for optimization.</p>
-            <a href="#" className="read-more">Read more →</a>
+            <a href="https://codeforces.com/blog/entry/60612" className="read-more">Read more →</a>
           </div>
 
           <div className="blog-card">
             <h2>Crack Aptitude Like a Pro</h2>
             <p>Learn quick tricks and strategies to solve aptitude problems under 30 seconds.</p>
-            <a href="#" className="read-more">Read more →</a>
+            <a href="https://codeforces.com/blog/entry/118882" className="read-more">Read more →</a>
           </div>
 
           <div className="blog-card">
             <h2>Understanding Recursion in Depth</h2>
             <p>From stack memory to recursive tree visualization — this post breaks down recursion like never before.</p>
-            <a href="#" className="read-more">Read more →</a>
+            <a href="https://codeforces.com/blog/entry/64844" className="read-more">Read more →</a>
           </div>
 
           <div className="blog-card">
             <h2>5 Common Mistakes in Competitive Programming</h2>
             <p>Off-by-one errors, TLEs, overflows... and how to fix them with ease.</p>
-            <a href="#" className="read-more">Read more →</a>
+            <a href="https://codeforces.com/blog/entry/111217" className="read-more">Read more →</a>
           </div>
 
         </div>
