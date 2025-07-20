@@ -40,7 +40,10 @@ padding: 40px 20px;
 }
 
 .login-title{
-    color: #C3B8FF;
+    text-align: center;
+    font-size: 3rem;
+    color: #614BDB;
+    margin-bottom: 30px;
 }
 
 .about-content {
@@ -54,7 +57,7 @@ padding: 20px;
 }
 
 .about-section {
-background: rgba(255, 255, 255, 0.05);
+background: black;
 border-left: 4px solid #614BDB;
 padding: 20px;
 border-radius: 10px;
